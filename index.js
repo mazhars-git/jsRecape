@@ -84,11 +84,46 @@ var result3 = Math.random(num);
 
 console.log(result, result1, result2, result3)
 
+
+
+var bananaPrice = 10;
+
+if(bananaPrice < 12){
+    console.log("Give me a banana.");
+}
+else{
+    console.log("Give me khali Chaa.");
+}
+
+if (bananaPrice == 10) {
+    console.log("Give me this item")
+} else {
+    console.log("No thanks.")
+}
+if (bananaPrice != 10) {
+    console.log("Give me this item")
+} else {
+    console.log("No thanks.")
+}
+
 */
 
+var savings = 5000;
+var jobHolder = true;
 
+if (jobHolder == true && savings > 20000) {
+    console.log("You can get married.")
+}
+else if(jobHolder == true){
+ console.log("Koi din wait koro.")
+}
+else {
+    console.log("No you have not.")
+}
 
+var date = new Date();
 
+console.log(date);
 
 
 
