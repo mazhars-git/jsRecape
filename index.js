@@ -133,11 +133,38 @@ console.log(date);
 
 //Array
 
-var studentNumber = [50, 60, 80, 90];
+// var stNumber = [50, 60, 80, 90];
 
-studentNumber[0] = 70;
+// studentNumber[0] = 70;
 
-var position = studentNumber.indexOf(90);
+// var position = studentNumber.indexOf(90);
 
-console.log(position)
+// console.log(position)
+
+// stNumber.push(15);
+// stNumber.push(88);
+// var moreNum = [33, 34, 55]
+// stNumber.push(...moreNum)
+
+// console.log(stNumber)
+// stNumber.pop()
+
+// stNumber.shift();
+// stNumber.unshift(66);
+
+// console.log(stNumber)
+
+var frNames = ['Azad', 'Akash', 'Jaber', 'Kalin', 'Kadij'];
+
+console.log(frNames);
+frNames.shift()
+frNames.unshift('Hamid')
+frNames.push('Nayeem')
+console.log(frNames);
+
+var slice= frNames.slice(3, 5);
+console.log(slice)
+
+
+
 
