@@ -106,7 +106,7 @@ if (bananaPrice != 10) {
     console.log("No thanks.")
 }
 
-*/
+
 
 var savings = 5000;
 var jobHolder = true;
@@ -125,5 +125,19 @@ var date = new Date();
 
 console.log(date);
 
+//Module 12 done*************************
 
+*/
+
+//Module 13 ***********************************
+
+//Array
+
+var studentNumber = [50, 60, 80, 90];
+
+studentNumber[0] = 70;
+
+var position = studentNumber.indexOf(90);
+
+console.log(position)
 
