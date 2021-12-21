@@ -154,16 +154,63 @@ console.log(date);
 
 // console.log(stNumber)
 
-var frNames = ['Azad', 'Akash', 'Jaber', 'Kalin', 'Kadij'];
+// var frNames = ['Azad', 'Akash', 'Jaber', 'Kalin', 'Kadij'];
 
-console.log(frNames);
-frNames.shift()
-frNames.unshift('Hamid')
-frNames.push('Nayeem')
-console.log(frNames);
+// console.log(frNames);
+// frNames.shift()
+// frNames.unshift('Hamid')
+// frNames.push('Nayeem')
+// console.log(frNames);
 
-var slice= frNames.slice(3, 5);
-console.log(slice)
+// var slice= frNames.slice(3, 5);
+// console.log(slice)
+
+// const person = {age: 42}
+// person.age= 41;
+
+// let arr = [1, 2, 3]
+
+// arr.push(0)
+// console.log(arr);
+
+
+
+//weDevs interview: ......................................
+
+//Q: 1 is: var, let and const ??? 70% ans;
+
+//Q: 2 is it correct? wrong ans:
+// const person = {age: 42}
+// person.age= 41;
+
+//Q: 3 is: how to find the "age" property? not ans:
+// const person = {age: 42}
+// person.age= 41;
+
+//Q: 4 is: how to add another number? not ans:
+// let sum = [1, 2, 3].reduce((a, b) => a + b)
+// console.log(sum)
+
+// //Q: 5 is: different between normal fun? 20% ans:
+// const fun = () =>{
+
+// }
+
+//Q: 6 is: react hook. useEffect hook? 30% ans:
+
+
+//loop............
+
+var num = 1;
+
+while(num <=20){
+    console.log(num);
+    num++;
+}
+
+
+
+
 
 
 
