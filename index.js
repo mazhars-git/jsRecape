@@ -212,13 +212,67 @@ console.log(date);
 //     console.log(i)
 // }
 
-var friends = ['Akas', 'Azad', 'Jalal', 'Jashim', 'Loli', 'Latif', 'Kajol'];
+// var friends = ['Akas', 'Azad', 'Jalal', 'Jashim', 'Loli', 'Latif', 'Kajol'];
 
-for (let i = 0; i < friends.length; i++) {
-    const element = friends[i];
+// for (let i = 0; i < friends.length; i++) {
+//     const element = friends[i];
 
+//     console.log(element);
+// }
+
+
+/*var foodName = ['Apple', 'Orange', 'Banana', 'Malta', 'Green Apple'];
+
+for (var i = 0; i < foodName.length; i++){
+    var element = foodName[i];
     console.log(element);
+
 }
+
+
+var num = 850;
+
+switch (num) {
+    case 1000:
+        console.log('I am the number 1 Thousand.')
+        break;
+    case 900:
+        console.log('I am the number nine hundred.')
+        break;
+    case 800:
+        console.log('I am the write number..........')
+        break;
+    default:
+        console.log('Something is wrong.')
+        break;
+}
+
+*/
+
+//function:
+
+function myFunc(){
+    console.log("Hello my function.")
+};
+
+// myFunc();
+
+function double(num) {
+    var result = num * 5;
+    return result;
+}
+
+var output = double(10);
+console.log(output);
+
+
+function addNum(num1, num2){
+    var result = num1 + num2;
+    return result;
+}
+
+var add = addNum(5, 10);
+console.log(add);
 
 
 
