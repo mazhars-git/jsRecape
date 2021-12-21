@@ -201,13 +201,24 @@ console.log(date);
 
 //loop............
 
-var num = 1;
+// var num = 1;
 
-while(num <=20){
-    console.log(num);
-    num++;
+// while(num <=20){
+//     console.log(num);
+//     num++;
+// }
+
+// for(var i = 0; i < 10; i++){
+//     console.log(i)
+// }
+
+var friends = ['Akas', 'Azad', 'Jalal', 'Jashim', 'Loli', 'Latif', 'Kajol'];
+
+for (let i = 0; i < friends.length; i++) {
+    const element = friends[i];
+
+    console.log(element);
 }
-
 
 
 
