@@ -247,7 +247,7 @@ switch (num) {
         break;
 }
 
-*/
+
 
 //function:
 
@@ -276,7 +276,57 @@ console.log(add);
 
 
 
+var stData = {
+    name: 'Abid',
+    phone: 01754,
+    id: 555,
+    group: "D"
+}
+
+var stPhoneNo = "phone";
+
+var stPhone = stData.phone;
+var stPhone2 = stData["phone"];
+var stPhone3 = stData[stPhoneNo];
+
+//update data;
+
+stData.phone = 3358555;
+console.log(stData)
+
+console.log(stPhone, stPhone2, stPhone3);
+
+*/
+
+/*function largeNum(number){
+    var larger = number[0];
+    for (let i = 0; i < number.length; i++) {
+        const element = number[i];
+
+        if (element > larger) {
+            larger = element;
+        }
+    }
+    return larger;
+}
+
+var result = largeNum([50, 80, 99]);
+console.log(result)
+
+*/
+
+//inch to feet
+
+// var inch = 150;
+// var feet = inch / 12;
+
+// console.log(feet);
 
 
+function inchToFeet(inch){
+    var feet = inch / 12;
+    return feet;
+}
 
-
+var myFeet = inchToFeet(256);
+console.log(myFeet);
