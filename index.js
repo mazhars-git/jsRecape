@@ -323,10 +323,26 @@ console.log(result)
 // console.log(feet);
 
 
-function inchToFeet(inch){
-    var feet = inch / 12;
-    return feet;
+// function inchToFeet(inch){
+//     var feet = inch / 12;
+//     return feet;
+// }
+
+// var myFeet = inchToFeet(256);
+// console.log(myFeet);
+
+
+// leapYear
+
+function leap_year(year){
+    const remainder = year % 4;
+    if (remainder == 0) {
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 
-var myFeet = inchToFeet(256);
-console.log(myFeet);
+const result = leap_year(2024);
+console.log(result);
