@@ -346,3 +346,6 @@ function leap_year(year){
 
 const result = leap_year(2024);
 console.log(result);
+
+
+var num = 1;
