@@ -348,4 +348,10 @@ const result = leap_year(2024);
 console.log(result);
 
 
-var num = 1;
+var factoNum = 1;
+for (let i = 1; i < 5; i++) {
+
+    factoNum = factoNum * i;
+    console.log(factoNum);
+    
+}
