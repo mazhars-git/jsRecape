@@ -334,24 +334,62 @@ console.log(result)
 
 // leapYear
 
-function leap_year(year){
-    const remainder = year % 4;
-    if (remainder == 0) {
-        return true;
+// function leap_year(year){
+//     const remainder = year % 4;
+//     if (remainder == 0) {
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+
+// const result = leap_year(2024);
+// console.log(result);
+
+
+// var factoNum = 1;
+// for (let i = 1; i < 5; i++) {
+
+//     factoNum = factoNum * i;
+//     console.log(factoNum);
+    
+// }
+
+
+//factorial ...........
+
+/*/function factorial(n) {
+    if (n == 0) {
+        return 1;
     }
     else{
-        return false;
+        return n * factorial(n-1); 
     }
-}
-
-const result = leap_year(2024);
-console.log(result);
-
-
-var factoNum = 1;
-for (let i = 1; i < 5; i++) {
-
-    factoNum = factoNum * i;
-    console.log(factoNum);
     
 }
+
+const add = factorial(12);
+console.log(factorial, add)*/
+
+// fibonacci
+
+var fibo = [0, 1];
+
+for (let i = 2; i <=10; i++) {
+   fibo[i] = fibo[i - 1]+ fibo[i - 2];
+//    console.log(fibo[i], fibo[i-1], fibo[i-2])
+    
+}
+// console.log(fibo)
+
+function fibonacci(n) {
+    var fibo = [0, 1];
+   for (let i = 2; i <= n; i++) {
+        fibo[i] = fibo[i - 1] + fibo[i - 2];
+        }
+        return fibo;
+}
+
+var result = fibonacci(5);
+console.log(result);
