@@ -383,6 +383,7 @@ for (let i = 2; i <=10; i++) {
 }
 // console.log(fibo)
 
+/*
 function fibonacci(n) {
     var fibo = [0, 1];
    for (let i = 2; i <= n; i++) {
@@ -392,4 +393,35 @@ function fibonacci(n) {
 }
 
 var result = fibonacci(5);
+console.log(result); */
+
+// function fibonacci(n) {
+//     if (n == 0) {
+//         return 0;
+//     }
+//     if (n == 1) {
+//         return 1;  
+//     }
+//     else{
+//         return fibonacci(n-1) + fibonacci(n-2);
+//     }
+    
+// }
+
+// var result = fibonacci(15);
+// console.log(result);
+
+
+//prime number: 
+
+function primeNumber(n) {
+    for (let i = 2; i < n; i++) {
+        if (n % i == 0) {
+            return 'is not a prime number'
+        }
+        
+    }
+    return 'your number is a prime'
+}
+var result = primeNumber(179);
 console.log(result);
