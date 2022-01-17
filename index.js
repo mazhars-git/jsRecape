@@ -414,6 +414,7 @@ console.log(result); */
 
 //prime number: 
 
+/*
 function primeNumber(n) {
     for (let i = 2; i < n; i++) {
         if (n % i == 0) {
@@ -425,3 +426,35 @@ function primeNumber(n) {
 }
 var result = primeNumber(179);
 console.log(result);
+
+*/
+
+//swap variable....................
+
+var a = 9;
+var b = 10;
+
+console.log('Before Swap: a=', a,',', 'b=', b);
+
+var temp = a;
+a = b;
+b = temp;
+
+console.log('After Swap: a=', a,',', 'b=', b);
+
+var x = 6;
+var y = 3;
+
+x = x + y;
+y = x - y;
+x = x - y;
+
+console.log('after Swap: x=', x,',', 'y=', y);
+
+
+var m = 8;
+var n = 9;
+[m, n] = [n, m]
+
+console.log(m, n);
+
