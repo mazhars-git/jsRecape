@@ -427,7 +427,7 @@ function primeNumber(n) {
 var result = primeNumber(179);
 console.log(result);
 
-*/
+
 
 //swap variable....................
 
@@ -457,4 +457,55 @@ var n = 9;
 [m, n] = [n, m]
 
 console.log(m, n);
+
+*/
+
+//Random Number
+
+/* var num = 10.5164;
+
+var result = Math.round(num);
+var result2 = Math.floor(num);
+
+var result4 = Math.ceil(num);
+
+// console.log(result, result2, result3, result4)
+
+for(var i = 0; i <= 10; i++){
+    var randomNum = Math.random() * 6;
+    var output = Math.round(randomNum);
+    console.log(output)
+}
+*/
+
+//Max value: -----------------
+
+var bcsCader = 1160;
+var doctor = 6650;
+var salesMan = 950;
+
+var max = Math.max(bcsCader, doctor, salesMan);
+
+console.log(max);
+
+
+/*
+if (bcsCader > doctor) {
+    if (bcsCader > salesMan) {
+        console.log("Bcs Cader is Bigger.");
+    }
+    else{
+        console.log("salesMan is Bigger.");
+    }
+}
+else{
+    if (doctor > salesMan) {
+        console.log("doctor is Bigger.");
+    }
+    else{
+        console.log("sales man is Bigger.")
+    }
+    
+}
+*/
 
