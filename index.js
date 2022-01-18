@@ -480,13 +480,13 @@ for(var i = 0; i <= 10; i++){
 
 //Max value: -----------------
 
-var bcsCader = 1160;
-var doctor = 6650;
-var salesMan = 950;
+// var bcsCader = 1160;
+// var doctor = 6650;
+// var salesMan = 950;
 
-var max = Math.max(bcsCader, doctor, salesMan);
+// var max = Math.max(bcsCader, doctor, salesMan);
 
-console.log(max);
+// console.log(max);
 
 
 /*
@@ -509,3 +509,60 @@ else{
 }
 */
 
+/*
+var marks = [78, 77, 55, 98, 95, 50, 60, 66];
+
+var max = marks[0];
+
+for (let i = 0; i < marks.length; i++) {
+    var element = marks[i];
+    if (element > max) {
+        max = element;
+    }
+    
+}
+
+console.log('The max number is', max);
+
+*/
+
+//array sum/total: ---------------------
+
+// function totalArray(numbers){
+//     var sum = 0;
+//     for (let i = 0; i < numbers.length; i++) {
+//         var element = numbers[i];
+//         sum = sum + element;
+//     }
+//     return sum;
+// }
+
+// var numbers = [70, 55, 77, 88, 12, 30];
+// var output = totalArray(numbers);
+// var output2 = totalArray([50, 60, 10]);
+// console.log(output, output2);
+
+/*
+var numbers = [7, 9, 10, 13, 15];
+var sum = 0;
+for (let i = 0; i < numbers.length; i++) {
+    const element = numbers[i];
+    sum = sum + element;
+}
+
+console.log(sum);
+
+*/
+
+var items = [1, 4, 5, 1, 6, 7, 8, 6, 9, 4, 5, 10];
+
+var uniqueItems = [];
+for (let i = 0; i < items.length; i++) {
+    const element = items[i];
+    var index = uniqueItems.indexOf(element);
+    if (index == -1) {
+        uniqueItems.push(element)
+    }
+    
+}
+console.log(uniqueItems);
