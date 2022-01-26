@@ -570,4 +570,13 @@ console.log(sum);
 
 var sentence = 'I am a good student';
 
-console.log(sentence.length);
+var count = 0;
+for (let i = 0; i < sentence.length; i++) {
+    const char = sentence[i];
+    if (char = ' ') {
+        count++;
+    }
+    
+}
+
+console.log(count);
