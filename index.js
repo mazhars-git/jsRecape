@@ -568,15 +568,15 @@ console.log(sum);
 // console.log(uniqueItems);
 
 
-var sentence = 'I am a good student';
+var sentence = 'I am a good   student';
 
 var count = 0;
 for (let i = 0; i < sentence.length; i++) {
     const char = sentence[i];
-    if (char = ' ') {
+    if (char == ' ' && sentence[i-1]!== ' ') {
         count++;
     }
-    
 }
+count++;
 
 console.log(count);
