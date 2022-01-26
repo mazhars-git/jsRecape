@@ -554,15 +554,20 @@ console.log(sum);
 
 */
 
-var items = [1, 4, 5, 1, 6, 7, 8, 6, 9, 4, 5, 10];
+// var items = [1, 4, 5, 1, 6, 7, 8, 6, 9, 4, 5, 10];
 
-var uniqueItems = [];
-for (let i = 0; i < items.length; i++) {
-    const element = items[i];
-    var index = uniqueItems.indexOf(element);
-    if (index == -1) {
-        uniqueItems.push(element)
-    }
+// var uniqueItems = [];
+// for (let i = 0; i < items.length; i++) {
+//     const element = items[i];
+//     var index = uniqueItems.indexOf(element);
+//     if (index == -1) {
+//         uniqueItems.push(element)
+//     }
     
-}
-console.log(uniqueItems);
+// }
+// console.log(uniqueItems);
+
+
+var sentence = 'I am a good student';
+
+console.log(sentence.length);
