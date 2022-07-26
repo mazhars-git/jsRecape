@@ -4,16 +4,23 @@ var isActive = false;
 
 // array
 
-var items = ['watch', 'cap', 'shows', 'mobile'];
+// var items = ['watch', 'cap', 'shows', 'mobile'];
 
-items.indexOf();
+// items.indexOf();
 
-items.push('table');
+// items.push('table');
 
-items.pop();
+// items.pop();
 
-if (condition) {
+// if (condition) {
     
-} else {
+// } else {
     
-}
+// }
+
+// while loop
+
+
+
+
+
