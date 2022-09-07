@@ -591,3 +591,12 @@ if (gotJob == true) {
     console.log("Biye korar boyos hoini")
 }
 
+var webCamPrice = 1700;
+var myBudget = 1000;
+
+if (webCamPrice < myBudget) {
+    console.log("I will buy it")
+}else{
+    console.log("I can't buy it")
+}
+
