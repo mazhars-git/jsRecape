@@ -568,15 +568,26 @@ console.log(sum);
 // console.log(uniqueItems);
 
 
-var sentence = 'I am a good   student';
+// var sentence = 'I am a good   student';
 
-var count = 0;
-for (let i = 0; i < sentence.length; i++) {
-    const char = sentence[i];
-    if (char == ' ' && sentence[i-1]!== ' ') {
-        count++;
-    }
+// var count = 0;
+// for (let i = 0; i < sentence.length; i++) {
+//     const char = sentence[i];
+//     if (char == ' ' && sentence[i-1]!== ' ') {
+//         count++;
+//     }
+// }
+// count++;
+
+// console.log(count);
+
+var gotJob = true;
+
+if (gotJob == true) {
+
+    console.log('Biye kore fel')
+    
+}else{
+    console.log("Biye korar boyos hoini")
 }
-count++;
 
-console.log(count);
