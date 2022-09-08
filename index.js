@@ -581,22 +581,33 @@ console.log(sum);
 
 // console.log(count);
 
-var gotJob = true;
+// var gotJob = true;
 
-if (gotJob == true) {
+// if (gotJob == true) {
 
-    console.log('Biye kore fel')
+//     console.log('Biye kore fel')
     
-}else{
-    console.log("Biye korar boyos hoini")
-}
+// }else{
+//     console.log("Biye korar boyos hoini")
+// }
 
-var webCamPrice = 1700;
-var myBudget = 1000;
+// var webCamPrice = 1700;
+// var myBudget = 1000;
 
-if (webCamPrice < myBudget) {
-    console.log("I will buy it")
-}else{
-    console.log("I can't buy it")
+// if (webCamPrice < myBudget) {
+//     console.log("I will buy it")
+// }else{
+//     console.log("I can't buy it")
+// }
+
+
+//while loop
+
+var givenRice = 0;
+
+while (givenRice < 10) {
+    
+    console.log('give him more')
+    givenRice++;
 }
 
