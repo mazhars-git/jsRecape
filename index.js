@@ -621,5 +621,18 @@ while (num <= 15) {
 //Odd number 
 
 for (var i = 1; i < 15; i+= 2) {
-    console.log(i);
+    // console.log(i);
+}
+
+var numbers = [77, 55, 44, 45, 65, 85, 11, 12];
+
+for(var i = 0; i < numbers.length; i++){
+    var element = numbers[i];
+    console.log(element);
+}
+
+var names = ['Abid', 'Kalam','Kajol', 'jaber'];
+for (var i = 0; i < names.length; i++){
+    var element = names[i];
+    console.log(element);
 }
