@@ -614,7 +614,12 @@ while (givenRice < 10) {
 var num = 1;
 
 while (num <= 15) {
-    console.log(num);
+    // console.log(num);
     num = num + 2;
 }
 
+//Odd number 
+
+for (var i = 1; i < 15; i+= 2) {
+    console.log(i);
+}
