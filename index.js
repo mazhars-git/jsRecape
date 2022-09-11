@@ -607,7 +607,14 @@ var givenRice = 0;
 
 while (givenRice < 10) {
     
-    console.log('give him more')
+    // console.log('give him more')
     givenRice++;
+}
+
+var num = 1;
+
+while (num <= 15) {
+    console.log(num);
+    num = num + 2;
 }
 
